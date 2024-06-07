@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/
 def countPairs(self, nums: List[int], target: int) -> int:
     nums.sort()
     answer = 0
