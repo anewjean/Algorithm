@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42862
 def solution(n, lost, reserve):
 
     # 여벌 체육복을 가지고 왔지만 도난당한 학생은 데이터셋에서 제외
