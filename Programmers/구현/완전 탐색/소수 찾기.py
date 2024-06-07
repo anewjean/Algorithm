@@ -1,3 +1,4 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/42839
 from itertools import permutations
 
 def is_prime(num):
