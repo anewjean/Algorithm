@@ -2,7 +2,7 @@
 LeetCode, Programmers 문제 풀이
 
 ## 알고리즘
-### 🪄 구현(Implementation)
+### 🧱 구현(Implementation)
 * 시뮬레이션(Simulation)
 </br>: 문제에서 제시한 알고리즘을 한 단계씩 차례대로 수행
 * 완전 탐색(Brute Force)
