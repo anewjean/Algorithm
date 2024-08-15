@@ -5,7 +5,7 @@ class Solution:
 
         for (x, y), value in zip(equations, values):
             look_up[x][y] = value
-            look_up[y][x] = 1.0/value
+            look_up[y][x] = 1.0 / value
 
         def DFS(x, y, visit):
             if x not in look_up or y not in look_up:
