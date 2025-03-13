@@ -1,5 +1,5 @@
 # Algorithm
-LeetCode, Programmers, Backjoon 문제 풀이
+LeetCode, Programmers, Baekjoon 문제 풀이
 
 ## 알고리즘
 ### 🧱 구현(Implementation)
