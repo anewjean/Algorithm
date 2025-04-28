@@ -20,4 +20,3 @@ for _ in range(N):
     prices[W] = int(C)
 
 calc_min_cost()
-
