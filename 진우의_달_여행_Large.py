@@ -18,7 +18,7 @@ for i in range(1, N):
         for d in range(3):  # 현재 도착 방향
             for prev_d in range(3):  # 이전에서 온 방향
                 if d == prev_d:
-                    continue  # 같은 방향 연속 ❌
+                    continue  # 같은 방향 연속 x
                 nj = j + [-1, 0, 1][d]  # 현재 방향에 따른 이전 열 위치
                 if 0 <= nj < M:
                     dp[i][j][d] = min(dp[i][j][d], dp[i-1][nj][prev_d] + graph[i][j])
