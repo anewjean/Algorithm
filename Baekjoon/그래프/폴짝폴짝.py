@@ -19,7 +19,7 @@ while q:
     nxt = cur + step
     while nxt < n:
         if not dist[nxt]:         # 아직 방문 안 했으면
-            dist[nxt] = dist[cur] + 1
+            dist[nxt] = dist[cur] + 1 # 최소 점프 횟수 
             q.append(nxt)
         nxt += step                 # 배수만큼 계속 점프 가능
 
